@@ -29,7 +29,7 @@ sys.setrecursionlimit(10000)
 
 
 def branches(parser_class: tree.CompilationUnit) -> int:
-    """Determines the number of branches for a node
+    """Determines number of branches for a node
     according to the Extended Cyclomatic Complexity metric.
     Binary operations (&&, ||) and each case statement
     are taken into account.
